@@ -62,7 +62,7 @@ function getStems(entry) {
 		stems.push(entry.latin[1].substring(0, entry.latin[1].length - 1));
 		stems.push(entry.latin[0].substring(0, entry.latin[1].length - 2));
 	}
-	return stems.filter(function(str){return str != ""});
+	return ""; // stems.filter(function(str){return str != ""});
 }
 
 function getDefinition(word) {
